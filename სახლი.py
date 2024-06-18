@@ -3,7 +3,7 @@ from turtle import *
 
 
 width(2)
-speed(30)
+
 color("blue")
 
 
