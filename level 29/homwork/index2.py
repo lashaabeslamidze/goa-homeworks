@@ -9,13 +9,21 @@ def lasha(num1 = 11,num2 = 0):
 lasha()
 
 
+# დავალება: შექმენი სია, სადაც ჩაწერთ თამაშების სახელებს, და შემდეგ ამ თამაშების სახელებს ჩანაცვლებთ პროგრამირების ენებით, და შემდეგ დაპრინტავთ ამ სიას.
+list1=["pubg","fortnite","minecraft","subway"]
+list1[0]="python"
+list1[1]="java"
+list1[2]="c++"
+list1[3]="c"
+print(list1)
 
-# list=["pubg,fortnite,minecraft,subway"]
-# list[:4]="phyton,java,html,c++"
-# print(list)
+# დავალება: ეცადეთ შექმნათ ფუნქცია, რომელსაც გადაცემთ პარამეტრს name, შემდეგ კი, ფუნქცის გამოძახების შემდეგ, მიესალმოს მომხმარებელს.(რასაც გადაცემთ name-ს მნიშვნელობას)
 
+  
+def greet(name):
+    print("hello "+ name)
 
-     
+greet("lasha")
 
 
 
