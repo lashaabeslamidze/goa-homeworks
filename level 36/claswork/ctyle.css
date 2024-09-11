@@ -1,0 +1,54 @@
+h1 {
+    color: blue;
+
+
+    text-transform: uppercase;
+
+}
+
+
+h2 {
+
+text-decoration: underline;
+
+}
+
+
+h3 {
+
+    color:aqua;
+    text-shadow: 30px 30px 3px black
+
+}
+
+
+h4 {
+
+    text-align: right;
+
+}
+
+
+h5 {
+
+line-height: 1.8;
+
+
+}
+
+
+h6 {
+
+    letter-spacing: 10px;
+
+}
+
+
+
+strong {
+
+
+    word-spacing: 15px;
+}
+
+
