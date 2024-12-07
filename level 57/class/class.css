@@ -1,0 +1,51 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.heding-1{
+width: 400px;
+height: 400px;
+background-color: aqua;
+font-size: 3em;
+font-family: monospace;
+color:blue;
+text-align: center;
+transform: translate(100px,100px);
+
+
+}
+
+.heding-2{
+    width: 400px;
+    height: 400px;
+    background-color:rgb(233, 100, 100);
+    font-size: 3em;
+    font-family: monospace;
+    color:blue;
+    text-align: center;
+    transform: scale(1);
+    
+    }
+    .heding-3{
+        width: 400px;
+        height: 400px;
+        background-color: red;
+        font-size: 3em;
+        font-family: monospace;
+        color:blue;
+        text-align: center;
+        transform: skew(1,5px,1,5px);
+        }
+        .heding-4{
+            width: 400px;
+            height: 400px;
+            background-color:green;
+            font-size: 3em;
+            font-family: monospace;
+            color:blue;
+            text-align: center;
+            transform: translate(400px,400px);
+        }
+
+                                        

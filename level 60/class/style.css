@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: white;
+  }
+  
+  div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+    transition: 0.5s; 
+  }
+  
+ 
+  .div1 {
+    background: cadetblue;
+  }
+  .div1:hover {
+    transform: rotate(280deg);
+    background: green;
+  }
+  
+ 
+  .div2 {
+    background:tomato ;
+  }
+  .div2:hover {
+    transform: scale(3);
+  }
+  
+ 
+  .div3 {
+    background: red;
+  }
+  .div3:hover {
+    transform: translateY(-20px) rotate(15deg) scale(1.2);
+  }

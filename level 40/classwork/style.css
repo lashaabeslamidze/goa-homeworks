@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+body{
+    background-color: blue;
+    
+}
+
+#main{
+    background-color: white;
+    width:500px;
+    height:1000px;
+    border-radius: 10px;
+
+    
+}
+
+
+
+
+#input{
+    
+    text-align: center;
+}
+
+#header{
+    text-align: center;
+}
+
+
+
+
+
+
+#input,input{
+    border:none;
+    border:solid 10px underline;
+}

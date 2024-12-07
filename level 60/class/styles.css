@@ -1,0 +1,38 @@
+
+body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: white;
+      }
+
+:root {
+    --text-color: white;
+    --bg-color1: blue;
+    --bg-color2:red;              
+    --display: flex;
+    --justify-content: center;
+    --align-items: center;
+    --min-height: 100vh;
+    --margin: 0;
+    --background-color: white;
+      }
+  
+  .box {
+    color: var(--text-color);
+    font-size: var(--font-size);
+    padding: var(--padding);
+    margin: var(--margin);
+    border-radius: var(--border-radius);
+    text-align: center;
+  }
+  
+.box1 {
+    background-color: var(--bg-color1);
+  }
+  
+.box2 {
+    background-color: var(--bg-color2);
+  }
