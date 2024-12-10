@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>სტილი :root-ში</title>
+    <style>
+        
+        :root {
+            --color: #333333; 
+            --background-color: #f0f0f0; 
+            --font-size: 16px; 
+            --font-family: 'Arial', sans-serif; 
+            --box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+            --border: 2px solid #cccccc; 
+            --border-radius: 8px; 
+            --margin: 20px; 
+            --padding: 15px; 
+            --position: relative; 
+        }
+
+        
+        body {
+            font-family: var(--font-family);
+            background-color: var(--background-color);
+            color: var(--color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        
+        .element1 {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            border: var(--border);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            margin: var(--margin);
+            padding: var(--padding);
+            position: var(--position);
+        }
+
+        
+        .element2 {
+            width: 200px;
+            height: 100px;
+            background-color: lightcoral;
+            border: var(--border);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            margin: var(--margin);
+            padding: var(--padding);
+            position: var(--position);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="element1">ელემენტი 1</div>
+    <div class="element2">ელემენტი 2</div>
+</body>
+</html>

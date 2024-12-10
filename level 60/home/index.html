@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>დივ ელემენტები</title>
+    <style>
+        
+        .box {
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            display: inline-block;
+            transition: all 0.3s ease; 
+        }
+
+       
+        .box1 {
+            background-color: lightblue;
+        }
+        .box1:hover {
+            transform: rotate(280deg); 
+            background-color: lightcoral; 
+        }
+
+        
+        .box2 {
+            background-color: lightgreen;
+        }
+        .box2:hover {
+            transform: scale(3); 
+        }
+
+        
+        .box3 {
+            background-color: lightgoldenrodyellow;
+        }
+        .box3:hover {
+            transform: scale(1.2) translateX(50px); 
+        }
+
+    </style>
+</head>
+<body>
+
+    
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+
+</body>
+</html>
